@@ -25,6 +25,7 @@ function potencia(base: number, exponente: number): number {
 btn3.addEventListener("click", () => {
   let resultado: number = potencia(base_1, exponente_2);
   mostrarResultado.innerHTML = "El resultado es: " + resultado;
+  console.log("El resultado es: " + resultado);
 });
 
 //rotulo1.innerHTMl = "Ingrese La base";
